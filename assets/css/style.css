@@ -44,18 +44,18 @@ body {
   color: var(--primary);
 }
 
-.navbar .navabar-nav a {
+.navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
   font-size: 1.4rem;
   margin: 0 1rem;
 }
 
-.navbar .navabar-nav a:hover {
+.navbar .navbar-nav a:hover {
   color: var(--primary);
 }
 
-.navbar .navabar-nav a::after {
+.navbar .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
@@ -64,6 +64,15 @@ body {
   transition: 0.2s linear;
 }
 
-.navbar .navabar-nav a:hover::after {
-  transform: scaleX(1);
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
 }
