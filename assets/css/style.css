@@ -76,3 +76,7 @@ body {
 .navbar .navbar-extra a:hover {
   color: var(--primary);
 }
+
+#hamburger-menu {
+  display: none;
+}
